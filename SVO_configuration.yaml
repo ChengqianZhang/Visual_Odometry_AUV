@@ -1,0 +1,25 @@
+#YAML 1.0
+
+#calibrated parameter of the camera
+params_path: 'D:/Southampton/Msc Project/TEST FOLDER/NEWSVO'
+
+# Flag for applying epipolar registration method
+apply_2D_2D_VO: False
+
+# Flag for applying PnP Ransac method
+apply_3D_2D_VO: True
+
+# Flag for applying 3D ICP method
+apply_3D_3D_VO: False
+
+#Filelist of Left images 
+Images_L_path: 'D:/Southampton/Msc Project/TEST FOLDER/LC/filelist.csv'
+#Filelist of Right images
+Images_R_path: 'D:/Southampton/Msc Project/TEST FOLDER/RC/filelist.csv'
+
+#Path of left images:
+LC: 'D:/Southampton/Msc Project/TEST FOLDER/LC'
+
+#Path of right images:
+RC: 'D:/Southampton/Msc Project/TEST FOLDER/RC'
+
