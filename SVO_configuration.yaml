@@ -1,7 +1,9 @@
 #YAML 1.0
 
 #calibrated parameter of the camera
-params_path: 'D:/Southampton/Msc Project/TEST FOLDER/NEWSVO'
+params_path_LC: 'D:/git/correct_images/camera_params/camera_parameters_unagi6k_L.yml'
+
+params_path_RC: 'D:/git/correct_images/camera_params/camera_parameters_unagi6k_R.yml'
 
 # Flag for applying epipolar registration method
 apply_2D_2D_VO: False
